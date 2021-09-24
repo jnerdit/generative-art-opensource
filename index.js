@@ -33,16 +33,16 @@ const signImage = (_sig) => {
   ctx.fillText(_sig, 40, 40);
 };
 
-const genColor = () => {
-  let hue = Math.floor(Math.random() * 360);
-  let pastel = `hsl(${hue}, 100%, 85%)`;
-  return pastel;
-};
+// const genColor = () => {
+//   let hue = Math.floor(Math.random() * 360);
+//   let pastel = `hsl(${hue}, 100%, 85%)`;
+//   return pastel;
+// };
 
-const drawBackground = () => {
-  ctx.fillStyle = genColor();
-  ctx.fillRect(0, 0, width, height);
-};
+// const drawBackground = () => {
+//   ctx.fillStyle = genColor();
+//   ctx.fillRect(0, 0, width, height);
+// };
 
 const addMetadata = (_dna, _edition) => {
   let dateTime = Date.now();

@@ -5,8 +5,8 @@ const dir = __dirname;
 const description = "These are Generative NFT Artworks on Polygon & Fantom chains - Inedible Content Studios";
 const baseImageUri = "https://hashlips/nft";
 const startEditionFrom = 1;
-const endEditionAt = 29;
-const editionSize = 30;
+const endEditionAt = 100;
+const editionSize = 100;
 const raceWeights = [
   {
     value: "rattfink",
@@ -57,61 +57,61 @@ rattfink: {
             id: 0,
             name: "Grey",
             path: `${dir}/RatBase/grey.png`,
-            weight: 75,
+            weight: 150, // 25%
           },
           {
             id: 1,
             name: "Banana",
             path: `${dir}/RatBase/banana.png`,
-            weight: 50,
+            weight: 125, // 25%
           },
           {
             id: 2,
             name: "Blanco",
             path: `${dir}/RatBase/blanco.png`,
-            weight: 40,
+            weight: 100,
           },
           {
             id: 3,
             name: "Dayglo",
             path: `${dir}/RatBase/dayglo.png`,
-            weight: 30,
+            weight: 65, // 5%
           },
           {
             id: 4,
             name: "Neon",
             path: `${dir}/RatBase/neon.png`,
-            weight: 20,
+            weight: 60, // 20%
           },
           {
             id: 5,
             name: "Orange",
             path: `${dir}/RatBase/orange.png`,
-            weight: 35,
+            weight: 40, // 20%
           },
           {
             id: 6,
             name: "Soup",
             path: `${dir}/RatBase/soup.png`,
-            weight: 30,
+            weight: 20, // 13%
           },
           {
             id: 7,
             name: "Darkblue",
             path: `${dir}/RatBase/darkblue.png`,
-            weight: 25,
+            weight: 7, // 4%
           },
           { 
             id: 8,
             name: "Azure",
             path: `${dir}/RatBase/azure.png`,
-            weight: 15,
+            weight: 3, // 2%
           },
           {
             id: 9,
             name: "Pimp",
             path: `${dir}/RatBase/pimp.png`,
-            weight: 5,
+            weight: 1,
           },
         ],
         position: { x: 0, y: 0 },
